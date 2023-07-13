@@ -35,6 +35,9 @@ Let's briefly explain each folder:
 # Install project dependencies
 
 - The `pipenv install` command is used to install project dependencies within a virtual environment.
+- User `pipenv install --deploy --ignore-pipfile`
+    - The `--deploy` flag installs exact versions of the dependencies as specified in the Pipfile.lock.
+    - The `--ignore-pipfile` flag ignores the Pipfile during dependency installation to avoid potential conflicts.
 - The `pipenv install --system` command is used to install project dependencies globally on your system rather than within a virtual environment.
 
 # Activate the virtual environment
