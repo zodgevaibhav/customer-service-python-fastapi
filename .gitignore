@@ -1,0 +1,23 @@
+# Python-specific
+*.pyc
+__pycache__/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Development-specific
+*.log
+*.swp
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Environment-specific
+.env
+
+# Dependency management
+/.venv
+/poetry.lock
